@@ -17,13 +17,13 @@ Su objetivo es demostrar la implementación de una aplicación **modular, respon
 - Consumo de una **API externa pública (FakeStore API)**.  
 - Uso de **componentes reutilizables** y **rutas anidadas**.
 
----
+
 
 ## ⚙️ Estructura y modularización del proyecto
 
 El proyecto está organizado de forma **modular** en carpetas separadas según su función:
 
-```
+
 src/
  ├── assets/           # Imágenes y recursos estáticos
  ├── components/       # Componentes reutilizables (Navbar, Sidebar, Footer, ProductCard)
@@ -50,7 +50,7 @@ src/
 - `/dashboard` → Panel principal  
 - `/dashboard/productos` → Listado y gestión de productos  
 
----
+
 
 ## 🌐 Ejemplo de consumo de la API externa
 
@@ -84,10 +84,9 @@ export default {
   }
 };
 ```
+Con esto, el proyecto **consume una API externa real (FakeStore API)**
 
-👉 Con esto, el proyecto **consume una API externa real (FakeStore API)**, cumpliendo el requisito del parcial.
 
----
 
 ## 🔄 Comunicación entre componentes (props y eventos)
 
@@ -109,7 +108,7 @@ export default {
 
 ➡️ El **padre (`ProductView`)** envía los datos de cada producto al **hijo (`ProductCard`)** mediante **props**, demostrando comunicación efectiva entre componentes.
 
----
+
 
 ## 🎨 Estilos y coherencia visual
 
@@ -126,21 +125,13 @@ Ejemplo:
 </footer>
 ```
 
----
+
 
 ## 👥 Evidencia de trabajo colaborativo
 
 Repositorio público en GitHub con commits y ramas de desarrollo:  
-🔗 https://github.com/tu-usuario/gamershop
+🔗 https://github.com/santiago-30235/Parcial2Desarrollo_Vue.git
 
-**Evidencias:**
-- Commits frecuentes mostrando avances.  
-- Ramas creadas para distintas partes (`login`, `dashboard`, `productos`).  
-- Pull Requests (PRs) y revisiones del código.  
-
-*(Reemplaza el enlace con el de tu repositorio real.)*
-
----
 
 ## 🧠 Tecnologías utilizadas
 
@@ -150,49 +141,14 @@ Repositorio público en GitHub con commits y ramas de desarrollo:
 - Vite  
 - FakeStore API  
 
----
-
-## 🚀 Instrucciones para ejecutar el proyecto
-
-1. Clonar el repositorio o descargar el proyecto.  
-2. Instalar dependencias:
-   ```bash
-   npm install
-   ```
-3. Ejecutar el servidor de desarrollo:
-   ```bash
-   npm run dev
-   ```
-4. Abrir en el navegador:
-   ```
-   http://localhost:5173/
-   ```
-
----
-
 ## 🔐 Credenciales del login (modo educativo)
 
 - **Usuario:** futbol  
 - **Contraseña:** 1234  
 
----
-
-## 📊 Resumen de cumplimiento del parcial
-
-| Criterio | Cumple |
-|-----------|:------:|
-| Modularización (componentes, vistas, rutas, servicios) | ✅ |
-| Login funcional | ✅ |
-| Dashboard con Navbar, Sidebar y Footer | ✅ |
-| CRUD con API externa (FakeStore API) | ✅ |
-| Comunicación entre componentes (props/eventos) | ✅ |
-| Uso de Bootstrap y coherencia visual | ✅ |
-| Documentación completa en README.md | ✅ |
-
----
 
 ✳️ **Autor:** Santiago Vila 192454 - Eduardo Avendaño 192441
 📆 **Materia:** Desarrollo de Aplicaciones Web  
 🏫 **Segundo Parcial – GamerShop**
 
-Nota:Esta app solo es para fines educativos 
+## Nota:Esta APP solo es para Fines Educativos 
